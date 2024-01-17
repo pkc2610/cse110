@@ -3,7 +3,7 @@
 
 adjective=input("adjective: ")
 animal=input("animal: ")
-verb=input("verb: ")
+verb=input("verb in gerund form: ")
 exclamation=input("exclamation: ")
 emotion=input("emotion: ")
 verb2=input("verb: ")
