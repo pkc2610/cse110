@@ -1,4 +1,4 @@
 fahrenheit=input("What is the temperature in fahrenheit?")
 celsius=(float(fahrenheit)-(32) * (5/9))
 
-print("The temperature in Celsius is", {celsius}, "degrees.")
+print(f"The temperature in Celsius is {celsius:.1f} degrees.")
