@@ -1,5 +1,4 @@
 sq_side=float(input("What is the length of a side of the square in cm?"))
-
 sq_area=sq_side**2
 
 print(f"The area of the square is: {sq_area}")
