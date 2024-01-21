@@ -7,7 +7,7 @@ subtotal=float((kidmeal*kidamt)+(admeal*adamt))
 
 print(f"Subtotal: ${subtotal:.2f} ")
 
-rate=float(input("What is the sales tax rate?"))
+rate=float(input("What is the sales tax rate? (as a percentage of total cost)"))
 
 total_sales_tax=rate*subtotal
 total=total_sales_tax + subtotal
