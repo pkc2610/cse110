@@ -1,4 +1,4 @@
-percent = input("What is your grade percent? ")
+percent = int(input("What is your grade percent? "))
 if percent >= 90:
     letter = "A"
 if percent >= 80:
@@ -8,3 +8,5 @@ if percent >= 70:
 if percent >= 60:
     letter = "D"
 else: letter = "F"
+
+print(f"Your letter grade is: {letter}")
