@@ -5,6 +5,10 @@ downpay=input("How large is your down payment?")
 
 loandecision= False
 
-if loansize>=5:
+if loansize>=5: 
     if credhis>=7 and income>=7:
-        loandecision= True
+        loandecision= True 
+    elif credhis>=7 or income>=7:
+        if downpay>=5:
+            loandecision=True
+        else: loandecision=False
