@@ -13,3 +13,13 @@ if loansize >= 5:
             loandecision = True
         else: loandecision = False
     else: loandecision = False
+else:
+    if credhis < 4:
+        loandecision = False
+    else: 
+        if income >= 7 or downpay >= 7:
+            loandecision = True
+        if income >= 4 and downpay >= 4:
+            loandecision = True
+        else:
+            loandecision = False
