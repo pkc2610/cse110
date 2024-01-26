@@ -12,3 +12,4 @@ if loansize >=5:
         if downpay >=5:
             loandecision = True
         else: loandecision = False
+    else: loandecision = False
