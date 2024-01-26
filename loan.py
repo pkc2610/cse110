@@ -23,3 +23,8 @@ else:
             loandecision = True
         else:
             loandecision = False
+
+if loandecision:
+    print("The decision is yes. This is a good loan.")
+else:
+    print("The decision is no. You should not loan this money.")
