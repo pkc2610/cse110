@@ -10,3 +10,7 @@ if percent >= 60:
 else: letter = "F"
 
 print(f"Your letter grade is: {letter}")
+
+if percent > 70:
+    print("Congratulations! You passed the class!")
+else: print("Stay focused and you'll get it next time!")
