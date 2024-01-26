@@ -5,3 +5,6 @@ if percent >= 80:
     letter = "B"
 if percent >= 70:
     letter = "C"
+if percent >= 60:
+    letter = "D"
+else: letter = "F"
