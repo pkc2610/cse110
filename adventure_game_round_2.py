@@ -22,10 +22,16 @@ print("As you go through your adventure, your options will appear in all caps. T
 
 input()
 
-print(choice1)
-
+choice1=input(choice1)
 choice2=input(sign)
+choice3=input(suggest)
+choice4=input(pie)
+choice5=input(meal)
 
+if choice1.upper()=="sign":
+    print(choice2)
+else: print(choice3)
+    
 if choice2.upper()=="pie":
-    print(pie)
-else: print(meal)
+    print(choice4)
+else: print(choice5)
