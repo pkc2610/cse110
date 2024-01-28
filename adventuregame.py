@@ -19,14 +19,27 @@ if input.upper(choice1)=="sign":
     if input.upper(sign)=="pie":
         input.upper(pie)
         if input.upper(pie)=="pumpkin":
-            input(pumpkin)
+            print(pumpkin)
         elif input.upper(pie)=="meal":
-            input(meal)
+            print(meal)
     elif input.upper(sign)=="bluebird":
         input(bluebird)
         if input.upper(bluebird)=="adelaide":
-            input(adelaide)
+            print(adelaide)
         elif input.upper(bluebird)=="town":
-            input(town)
-elif input.upper()
+            print(town)
+elif input.upper(choice1)=="suggest":
+    input(suggest)
+    if input.upper(suggest)=="directions":
+        input(directions)
+        if input.upper(directions)=="follow":
+            print(follow)
+        elif input.upper(directions)=="run":
+            print(run)
+    if input.upper(suggest)=="frog":
+        input(frog)
+        if input.upper(frog)=="trees":
+            print(trees)
+        elif input.upper(frog)=="path":
+            print(path)
     
