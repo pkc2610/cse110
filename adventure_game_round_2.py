@@ -22,22 +22,4 @@ print("As you go through your adventure, your options will appear in all caps. T
 
 input()
 
-choice1=input(choice1)
-choice2=input(sign)
-choice3=input(suggest)
-choice4=input(pie)
-choice5=input(meal)
-choice6=input(directions)
-choice7=input(frog)
 
-if choice1.upper()=="sign":
-    print(choice2)
-elif choice1.upper()=="suggest": print(choice3)
-    
-if choice2.upper()=="pie":
-    print(choice4)
-elif choice2.upper()=="bluebird": print(choice5)
-
-if choice3.upper()=="directions":
-    print(choice6)
-elif choice3.upper()=="frog": print(choice7)
