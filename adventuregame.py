@@ -23,22 +23,21 @@ if input(choice1)=="sign":
     if input(sign)=="pie":
         if input(pie)=="pumpkin":
             print(pumpkin)
-        elif input(pie)=="meal":
+        else:
             print(meal)
-    elif input(sign)=="bluebird":
+    else:
         if input(bluebird)=="adelaide":
             print(adelaide)
-        elif input(bluebird)=="town":
+        else:
             print(town)
-elif input(choice1)=="suggest":
+else:
     if input(suggest)=="directions":
         if input(directions)=="follow":
             print(follow)
-        elif input(directions)=="run":
+        else:
             print(run)
-    if input(suggest)=="frog":
-        if input(frog)=="trees":
-            print(trees)
-        elif input(frog)=="path":
-            print(path)
-    
+    else:
+        if input(suggest)=="frog":
+                print(trees)
+        else:
+                print(path)
