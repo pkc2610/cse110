@@ -14,6 +14,11 @@ run=str("  \n You grab your brother’s hand and bolt back for the path, the lig
 trees=str(" \n You let your little brother lead as you usher him up this winding path. At the top of a hill, you break through the trees to find an absolutely gorgeous, sprawling mansion as far as the eye can see. As you walk closer to the gate, you see a plaque: Quincy Endicott’s Health Tea. Maybe you could ask this guy for a meal. You ring the bell, and, surprisingly, the gates open.")
 path=str(" \n You insist that you keep walking, but it feels like you’re walking in circles. Hours and hours pass, but everything looks the same. It starts to snow. Your little brother’s voice starts grating on you, but you’re so tired. And so cold. So, so, cold. When a deep, melodic voice starts beckoning you, you follow it until you sleep. Your eyes close and you fade away.")
 
+
+print("As you go through your adventure, your options will appear in all caps. Type which option you want to persue, then hit enter.")
+
+input()
+
 if input.upper(choice1)=="sign":
     input.upper(sign)
     if input.upper(sign)=="pie":
