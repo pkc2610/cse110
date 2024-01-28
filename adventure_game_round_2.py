@@ -17,9 +17,30 @@ on=str(" \n The ferry, while a little odd, is on the whole, lovely. The band is 
 meal=str(" \n As the buildings get closer, the eerier everything seems. There’s not a single soul in any of the buildings—the one time you open someone’s door, a turkey is sitting at the table. Suddenly, you hear music coming from the barn. As you peek through the slightly opened door, you realize that everyone inside is wearing pumpkins. Someone bumps past you, suggesting that you don your vegetables and join them. Do you go INSIDE or LEAVE?")
 inside=str(" \n While your brother and Beatrice wander off, you look around to see if anyone can give you directions. You mention that you’re just hoping to pass through, and a tremor runs through everyone in the barn. Everyone turns to face you, the looks on their faces becoming much more grim. You're not going to make it out, are you?")
 leave=str(" \n You thank the gentleman who invited you, and decide to leave town and try to find another place. You continue on the road that leads through Pottsfield, and Beatrice once again brings up Adelaide. At the same time, you notice a thin path winding through the trees. Do you want to head toward ADELAIDE or through the TREES?")
+bolt=" \n The leaves crash beneath your feet as you all but fly as far back into the woods as you possibly can. After what seems like an eternity, you crash through a thicket of trees into an open field. As you stop and catch your breath, you realize there’s a man with a lantern at the other end of the clearing. You’re lost enough, you figure why not ask him for DIRECTIONS? "
 
 print("As you go through your adventure, your options will appear in all caps. Type which option you want to persue, then hit enter.")
 
 input()
 
-
+if input.upper(choice1)=="sign":
+    input(sign)
+elif input.upper(choice1)=="suggest":
+    input(suggest)
+    if input.upper(sign)=="pie":
+        input(pie)
+    elif input.upper(sign)=="bluebird":
+        input(bluebird)
+        if input.upper(pie)=="pumpkin":
+            input(pumpkin)
+        elif input.upper(pie)=="meal":
+            input(meal)
+            if input.upper(bluebird)=="adelaide":
+                input(adelaide)
+            elif input.upper(bluebird)=="town":
+                input(town)
+                if input.upper(pumpkin)=="bolt":
+                    input(bolt)
+                elif input.upper(pumpkin)=="meal":
+                    input(meal)
+                    if input()
