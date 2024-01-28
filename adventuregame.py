@@ -19,32 +19,26 @@ print("As you go through your adventure, your options will appear in all caps. T
 
 input()
 
-if input.upper(choice1)=="sign":
-    input.upper(sign)
-    if input.upper(sign)=="pie":
-        input.upper(pie)
-        if input.upper(pie)=="pumpkin":
+if input(choice1)=="sign":
+    if input(sign)=="pie":
+        if input(pie)=="pumpkin":
             print(pumpkin)
-        elif input.upper(pie)=="meal":
+        elif input(pie)=="meal":
             print(meal)
-    elif input.upper(sign)=="bluebird":
-        input(bluebird)
-        if input.upper(bluebird)=="adelaide":
+    elif input(sign)=="bluebird":
+        if input(bluebird)=="adelaide":
             print(adelaide)
-        elif input.upper(bluebird)=="town":
+        elif input(bluebird)=="town":
             print(town)
-elif input.upper(choice1)=="suggest":
-    input(suggest)
-    if input.upper(suggest)=="directions":
-        input(directions)
-        if input.upper(directions)=="follow":
+elif input(choice1)=="suggest":
+    if input(suggest)=="directions":
+        if input(directions)=="follow":
             print(follow)
-        elif input.upper(directions)=="run":
+        elif input(directions)=="run":
             print(run)
-    if input.upper(suggest)=="frog":
-        input(frog)
-        if input.upper(frog)=="trees":
+    if input(suggest)=="frog":
+        if input(frog)=="trees":
             print(trees)
-        elif input.upper(frog)=="path":
+        elif input(frog)=="path":
             print(path)
     
