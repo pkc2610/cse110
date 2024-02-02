@@ -12,7 +12,6 @@ print(f"The number is: {number}")
 candy=input("May I have a piece of candy?")
 
 while candy== "no":
-    print("May I have a piece of candy?")
     candy= str(input("May I have a piece of candy?"))
 
 print("Thank you")
