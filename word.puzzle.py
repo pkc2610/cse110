@@ -7,3 +7,12 @@ print()
 print("Just a heads up--this program does NOT account for duplicates. For example, if you \nenter the word 'food' and the answer is 'rose,' then the hint would show as '_Oo_,' \ndespite there only being one 'o' in 'rose.'")
 print()
 print("Best of luck!!")
+
+guess=input("What is your guess?")
+guesses=1
+
+while guess != sec_word:
+    guess=input("What is your guess?")
+    guess=guesses+1
+    
+print(f"It took you {guesses} guesses")
