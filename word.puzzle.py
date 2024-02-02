@@ -11,7 +11,8 @@ print("Best of luck!!")
 guess=input("What is your guess?")
 guesses=1
 
-while guess != sec_word:
+while str(guess) != str(sec_word):
+    print("Your guess was not correct")
     guess=input("What is your guess?")
     guess=guesses+1
     
