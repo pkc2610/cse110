@@ -5,3 +5,13 @@ while number < 0:
     number = int(input("Please type a positive number: "))
 
 print(f"The number is: {number}")
+
+
+
+
+candy=input("May I have a piece of candy?")
+
+while candy== "no":
+    print("May I have a piece of candy?")
+
+print("Thank you")
