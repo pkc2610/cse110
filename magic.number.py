@@ -6,3 +6,8 @@ guess=1
 
 while guess != magic_number:
     print("What is your guess?")
+
+    if guess < magic_number:
+        print("Higher!")
+    else: 
+        print("Lower.")
