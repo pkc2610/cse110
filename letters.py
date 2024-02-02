@@ -2,9 +2,16 @@ word="commitment"
 
 favl=input(f"What is your favorite letter in {word}?")
 
-for letter in word:
+for let in word:
 
-    if letter.lower() == favl:
-        print(letter.upper(), end="")
+    if let.lower() == favl:
+        print(let.upper(), end="")
     else:
-        print(letter.lower(), end="")
+        print(let.lower(), end="")
+
+for let in word:
+
+    if let.lower() == let.lower():
+        print("_", end="")
+    else:
+        print(let.lower(), end="")
