@@ -7,5 +7,5 @@ list=range(4)
 #for lst in range(1, 9):
     #print(lst)
 
-for lt in range(2, 21):
+for lt in range(2, 21, 2):
     print(lt)
