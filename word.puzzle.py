@@ -1,5 +1,5 @@
 word="flavortown"
-guess = input("gimme")
+guess = input("What is your guess?")
 guesses=1
 
 print("Welcome to the word guessing game!!")
@@ -11,11 +11,11 @@ print()
 print("Best of luck!!")
 
 
-while guess != word:
+while len(guess) != len(word):
     print("Your guess was not correct")
     guess=input("What is your guess?")
     guesses=guesses+1
-    
+
     
 print("You got it!!")
 print(f"It took you {guesses} guesses")
