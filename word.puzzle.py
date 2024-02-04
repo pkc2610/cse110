@@ -1,4 +1,6 @@
-sec_word="flavortown"
+word="flavortown"
+guess = input("gimme")
+guesses=1
 
 print("Welcome to the word guessing game!!")
 print()
@@ -8,10 +10,8 @@ print("Just a heads up--this program does NOT account for duplicates. For exampl
 print()
 print("Best of luck!!")
 
-guess=input("What is your guess?")
-guesses=1
 
-while guess != sec_word:
+while guess != word:
     print("Your guess was not correct")
     guess=input("What is your guess?")
     guesses=guesses+1
