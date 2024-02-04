@@ -16,6 +16,9 @@ while len(guess) != len(word):
     guess=input("What is your guess?")
     guesses=guesses+1
 
+
+guess = guess.lower()
+
     
 print("You got it!!")
 print(f"It took you {guesses} guesses")
