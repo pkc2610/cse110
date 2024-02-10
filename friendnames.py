@@ -9,3 +9,6 @@ while names != "end":
 
 print()
 print("Your friends are:")
+
+for friend in friends:
+    print(friend)
