@@ -8,3 +8,7 @@ while item != "end":
 
     if item != "end":
         shoppinglist.append(item)
+
+print("\nThe shopping list is:")
+for item in shoppinglist:
+    print(item)
