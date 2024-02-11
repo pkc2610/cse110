@@ -1,6 +1,6 @@
-#Store prices as well as names.
-#Change the add functionality to also ask for and store the price of the item.
-#Change the display functionality to also display the prices of the items.
+#Store prices as well as names. DONE
+#Change the add functionality to also ask for and store the price of the item. DONE
+#Change the display functionality to also display the prices of the items. DONE
 #When displaying the items, display a number in front of each item. The numbers should start with 1.
 #Complete the option to display the total amount of the prices of all the items in the shopping cart.
 #Whenever prices are displayed, they should be shown to two decimal places and include the appropriate currency symbol (for example $, €, etc.)
@@ -34,10 +34,11 @@ while action != 5:
 
     elif action == 2:
        #could maybe put a for loop in here if I'm really feeling smort--minute marker 6:15 of the first video 
-       for item in shoppinglist:
-         print(f"{shoppinglist}")
-         print(f"${listprices}")
-       action=int(input("Please select an action: "))
+       print("The shopping list and prices are: ")
+       for i in range(len(shoppinglist)):
+         item = shoppinglist[i]
+         print(f"{i}. {item}")
+         action=int(input("Please select an action: "))
 
     elif action ==3:
        info=input("What item would you like to remove? ")
