@@ -8,7 +8,7 @@ item = None
 action=int(input("Please select an action: "))
     
 while action != 5:
-    
+
     if action == 1:
      item=input("What item would you like to add?")
      shoppinglist.append(item)
