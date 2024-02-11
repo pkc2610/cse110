@@ -10,15 +10,16 @@ action=int(input("Please select an action: "))
 while action != 5:
 
     if action == 1:
-     item=input("What item would you like to add?")
+     item=input("What item would you like to add? ")
      shoppinglist.append(item)
+     action += 4
 
     elif action == 2:
        print(f"{shoppinglist}")
 
     elif action ==3:
-       info=input("What item would you like to remove?")
+       info=input("What item would you like to remove? ")
        shoppinglist.pop(info)
     
     elif action == 4:
-       print("Process incoming")
+       print("Process incoming ")
