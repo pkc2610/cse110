@@ -37,6 +37,7 @@ while action != 5:
        print("The shopping list and prices are: ")
        for i in range(len(shoppinglist)):
          item = shoppinglist[i]
+         item = listprices[i]
          print(f"{i}. {item} {listprices}")
          action=int(input("Please select an action: "))
 
