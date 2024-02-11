@@ -26,7 +26,7 @@ while action != 5:
 
     if action == 1:
      item=input("What item would you like to add? ")
-     itemprice=int(input(f"What is the price of {item}? "))
+     itemprice=float(input(f"What is the price of {item}? "))
      shoppinglist.append(item)
      listprices.append(itemprice)
 
