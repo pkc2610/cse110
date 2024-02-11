@@ -34,8 +34,9 @@ while action != 5:
 
     elif action == 2:
        #could maybe put a for loop in here if I'm really feeling smort--minute marker 6:15 of the first video 
-       print(f"{shoppinglist}")
-       print(f"${listprices}")
+       for item in shoppinglist:
+         print(f"{shoppinglist}")
+         print(f"${listprices}")
        action=int(input("Please select an action: "))
 
     elif action ==3:
