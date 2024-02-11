@@ -17,6 +17,7 @@ print()
 print("Please select one of the following: \n 1. Add item \n 2. View cart \n 3. Remove item \n 4. Compute total \n 5. Quit")
 
 shoppinglist = []
+listprices = []
 item = None
 
 action=int(input("Please select an action: "))
@@ -25,7 +26,10 @@ while action != 5:
 
     if action == 1:
      item=input("What item would you like to add? ")
+     itemprice=int(input(f"What is the price of {item}? "))
      shoppinglist.append(item)
+     listprices.append(itemprice)
+
      action=int(input("Please select an action: "))
 
     elif action == 2:
