@@ -6,8 +6,8 @@ shoppinglist = []
 item = None
 
 action=int(input("Please select an action: "))
-
-while action != "5":
+    
+while action != 5:
     
     if action == 1:
      item=input("What item would you like to add?")
@@ -22,4 +22,3 @@ while action != "5":
     
     elif action == 4:
        print("Process incoming")
-
