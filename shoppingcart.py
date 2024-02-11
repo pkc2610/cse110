@@ -16,10 +16,13 @@ while action != 5:
 
     elif action == 2:
        print(f"{shoppinglist}")
+       action += 3
 
     elif action ==3:
        info=input("What item would you like to remove? ")
        shoppinglist.pop(info)
+       action += 2
     
     elif action == 4:
        print("Process incoming ")
+       action += 1
