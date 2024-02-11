@@ -15,6 +15,7 @@ while action != 5:
      action += 4
 
     elif action == 2:
+       #could maybe put a for loop in here if I'm really feeling smort--minute marker 6:15 of the first video
        print(f"{shoppinglist}")
        action += 3
 
