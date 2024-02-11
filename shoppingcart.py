@@ -18,7 +18,7 @@ while action != 5:
 
     elif action ==3:
        info=input("What item would you like to remove?")
-       shoppinglist.append(info)
+       shoppinglist.pop(info)
     
     elif action == 4:
        print("Process incoming")
