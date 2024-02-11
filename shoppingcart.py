@@ -12,18 +12,18 @@ while action != 5:
     if action == 1:
      item=input("What item would you like to add? ")
      shoppinglist.append(item)
-     action += 4
+     action=int(input("Please select an action: "))
 
     elif action == 2:
        #could maybe put a for loop in here if I'm really feeling smort--minute marker 6:15 of the first video 
        print(f"{shoppinglist}")
-       action += 3
+       action=int(input("Please select an action: "))
 
     elif action ==3:
        info=input("What item would you like to remove? ")
        shoppinglist.pop(info)
-       action += 2
+       action=int(input("Please select an action: "))
     
     elif action == 4:
        print("Process incoming ")
-       action += 1
+       action=int(input("Please select an action: "))
