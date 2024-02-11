@@ -19,7 +19,7 @@ for i in range(len(shoppinglist)):
     item = shoppinglist[i]
     print(f"{i}. {item}")
 
-shoppinglist[index] = new_item
+shoppinglist[i] = item
 
 print("\nThe shopping list with indexes is:")
 for i in range(len(shoppinglist)):
