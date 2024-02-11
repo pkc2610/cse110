@@ -5,7 +5,7 @@ print("Please select one of the following: \n 1. Add item \n 2. View cart \n 3. 
 shoppinglist = []
 item = None
 
-action=input("Please select an action: ")
+action=int(input("Please select an action: "))
 
 while action != "5":
     
