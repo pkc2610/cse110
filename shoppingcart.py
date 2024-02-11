@@ -4,3 +4,5 @@ print("Please select one of the following: \n 1. Add item \n 2. View cart \n 3. 
 
 action=input("Please select an action: ")
 
+if action == 1:
+    input("What item would you like to add?")
