@@ -36,7 +36,7 @@ while action != 5:
        #could maybe put a for loop in here if I'm really feeling smort--minute marker 6:15 of the first video 
          print("The shopping list and prices are: ")
          print(f"{shoppinglist}")
-         print(f"{listprices}")
+         print(f"${listprices}")
          action=int(input("Please select an action: "))
 
     elif action ==3:
