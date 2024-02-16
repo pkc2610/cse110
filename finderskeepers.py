@@ -14,3 +14,6 @@ youngestn=0
 for line in puppies:
 
     parts = line.split()
+
+name = parts[0]
+age = int(parts[1])
