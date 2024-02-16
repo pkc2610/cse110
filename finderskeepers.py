@@ -17,3 +17,8 @@ for line in puppies:
 
 name = parts[0]
 age = int(parts[1])
+
+if age < youngesta:
+    youngesta = age
+    
+youngestn = name
