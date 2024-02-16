@@ -4,3 +4,5 @@ with open("hr_system.txt") as f:
 
 name = parts[1]
 title = parts[3]
+
+print(f"Name: {name}, Title: {title}")
