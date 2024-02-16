@@ -23,3 +23,4 @@ if age < youngesta:
     
 youngestn = name
 
+print(f"The youngest person is: {youngestn} with an age of {youngesta}")
