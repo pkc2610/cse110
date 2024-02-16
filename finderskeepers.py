@@ -1,5 +1,5 @@
 puppies = [
-    "Echo 2",
+    "Echo 2.5",
     "Evie 8",
     "Finn 3",
     "Gloves 2",
@@ -16,9 +16,10 @@ for line in puppies:
     parts = line.split()
 
 name = parts[0]
-age = int(parts[1])
+age = float(parts[1])
 
 if age < youngesta:
     youngesta = age
     
 youngestn = name
+
