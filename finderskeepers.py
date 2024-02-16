@@ -9,3 +9,4 @@ puppies = [
 
 youngesta=100000
 
+youngestn=0
