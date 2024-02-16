@@ -10,3 +10,7 @@ puppies = [
 youngesta=100000
 
 youngestn=0
+
+for line in puppies:
+
+    parts = line.split()
